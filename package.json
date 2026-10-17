@@ -1,0 +1,15 @@
+{
+  "name": "trackcandidatures-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serveur MCP (stdio + HTTP) pour piloter TrackCandidatures via le compte cloud",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "remote": "node remote.js",
+    "smoke": "node smoke.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
